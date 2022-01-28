@@ -1,0 +1,11 @@
+:root {
+    --Verylightpink: #C7C7C7;
+    --Textinputfield: #F7F7F7;
+    --HospitalGreen: #ACD982;
+    --White: #FFFFFF;
+    --Black: #000000;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
