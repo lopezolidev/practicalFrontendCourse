@@ -4,6 +4,9 @@
     --HospitalGreen: #ACD982;
     --White: #FFFFFF;
     --Black: #000000;
+    --sm: 12px;
+    --md: 16px;
+    --lg: 24px;
 }
 
 body {
@@ -22,4 +25,70 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 300px;
+}
+
+.logo {
+    width: 175px;
+    justify-self: center;
+    margin-bottom: 24px;
+    display: none;
+}
+
+.title {
+    font-weight: 700;
+    font-size: var(--lg);
+    text-align: center;
+}
+
+.subtitle {
+    color: var(--Verylightpink);
+    font-weight: 300;
+    font-size: var(--md);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.displayer {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.input {
+    border: none;
+    background-color: var(--Textinputfield);
+    padding: 6px;
+    border-radius: 8px;
+    font-size: var(--md);
+    height: 32px;
+    margin-bottom: 12px;
+}
+
+.primary-button {
+    background-color: var(--HospitalGreen);
+    color: var(--White);
+    font-weight: bold;
+    font-size: var(--md);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+}
+
+.login-button {
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+@media (max-width: 640px) {
+    .logo {
+        display: block;
+    }
 }
