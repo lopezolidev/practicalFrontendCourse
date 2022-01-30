@@ -4,6 +4,9 @@
     --HospitalGreen: #ACD982;
     --White: #FFFFFF;
     --Black: #000000;
+    --sm: 12px;
+    --md: 16px;
+    --lg: 24px;
 }
 
 body {
@@ -22,4 +25,38 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 300px;
+}
+
+.logo {
+    width: 175px;
+    margin-bottom: 24px;
+    justify-self: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: var(--lg);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: var(--md);
+    color: var(--Verylightpink);
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.displayer {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-top: 12px;
 }
