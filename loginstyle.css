@@ -35,6 +35,17 @@ body {
     display: none;
 }
 
+.displayer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.label {
+
+}
+.input {
+
+}
 .primary-button {
     background-color: var(--HospitalGreen);
     color: var(--White);
