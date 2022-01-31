@@ -38,13 +38,21 @@ body {
 .displayer {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
-.label {
 
+.label {
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
 }
 .input {
-
+    border: none;
+    background-color: var(--Textinputfield);
+    padding: 6px;
+    border-radius: 8px;
+    font-size: var(--md);
+    height: 32px;
+    margin-bottom: 12px;
 }
 .primary-button {
     background-color: var(--HospitalGreen);
