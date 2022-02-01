@@ -111,6 +111,6 @@ body {
 
     .displayer {
         height: 100%;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 }
