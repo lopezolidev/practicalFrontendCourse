@@ -38,6 +38,7 @@ body {
     font-weight: 700;
     font-size: var(--lg);
     text-align: start;
+    margin-bottom: 32px;
 }
 
 .displayer {
@@ -57,14 +58,11 @@ body {
     margin-bottom: 4px;
 }
 
-.input {
-    border: none;
+.value {
     background-color: var(--White);
-    padding: 6px;
-    border-radius: 8px;
+    color: var(--Verylightpink);
     font-size: var(--md);
-    height: 32px;
-    margin-bottom: 12px;
+    margin: 8px 0 32px 0;
 }
 
 .secondary-button {
