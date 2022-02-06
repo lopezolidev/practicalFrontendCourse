@@ -1,0 +1,27 @@
+:root {
+    --Verylightpink: #C7C7C7;
+    --Textinputfield: #F7F7F7;
+    --HospitalGreen: #ACD982;
+    --White: #FFFFFF;
+    --Black: #000000;
+    --sm: 12px;
+    --md: 16px;
+    --lg: 24px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+.container {
+    height: auto;
+    width: 100px;
+    border: 1px solid var(--Verylightpink);
+    border-radius: 8px;
+}
+
+.list-container {
+    list-style: none;
+
+}
