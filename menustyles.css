@@ -19,9 +19,32 @@ body {
     width: 100px;
     border: 1px solid var(--Verylightpink);
     border-radius: 8px;
+    padding: 20px 20px 0 20px;
 }
 
 .list-container {
     list-style: none;
-
+    padding: 0%;
+    text-align: end;
+    margin: 0;
 }
+
+.container .list-container li a {
+    text-decoration: none;
+    color: var(--Black);
+    font-style: bold;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.container .list-container li:last-child {
+    margin-top: 8px;
+    border-top: 1px solid var(--Verylightpink);
+    padding-top: 20px;
+}
+
+.container .list-container li:last-child a {
+    color: var(--HospitalGreen);
+    font-weight: var(--sm);
+}
+
