@@ -1,0 +1,71 @@
+:root {
+    --Verylightpink: #C7C7C7;
+    --Textinputfield: #F7F7F7;
+    --HospitalGreen: #ACD982;
+    --White: #FFFFFF;
+    --Black: #000000;
+    --sm: 12px;
+    --md: 16px;
+    --lg: 24px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+.mobile-menu {
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
+    height: 95vh;
+    padding: 36px 0 20px 20px;
+}
+
+.mobile-menu ul {
+    padding: 0;
+    list-style: none;
+}
+
+.mobile-menu a {
+    text-decoration: none
+}
+
+.mobile-menu .mobile-list a {
+    color: var(--Black);
+    font-size: var(--md);
+    font-weight: bold;
+}
+
+.mobile-menu .mobile-list li {
+    margin-bottom: 28px;
+}
+
+.mobile-menu .mobile-list li:last-child {
+    margin-bottom: 0;
+}
+
+.mobile-menu .insider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+.mobile-menu .secondary-list a {
+    color: var(--Black);
+    font-size: var(--md);
+    font-weight: bold;
+}
+
+.mobile-menu .secondary-list li {
+    margin-bottom: 28px;
+}
+
+.mobile-menu .secondary-list li:first-child {
+    border-top: 1px solid var(--Verylightpink);
+    padding-top: 40px;
+}
+
+
+
