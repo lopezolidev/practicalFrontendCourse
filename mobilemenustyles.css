@@ -15,11 +15,9 @@ body {
 }
 
 .mobile-menu {
-    /*display: flex;
-    flex-direction: column;
-    justify-content: space-between;*/
     height: 95vh;
-    padding: 36px 0 20px 20px;
+    padding: 36px 20px 20px 20px;
+    place-content: center;
 }
 
 .mobile-menu ul {
@@ -65,6 +63,20 @@ body {
 .mobile-menu .secondary-list li:first-child {
     border-top: 1px solid var(--Verylightpink);
     padding-top: 40px;
+}
+
+.mobile-menu .insider .options-list .mail a {
+    color: var(--Verylightpink);
+    font-size: var(--md);
+}
+
+.mobile-menu .insider .options-list .mail {
+    margin-bottom: 20px;
+}
+
+.mobile-menu .insider .options-list .sign-out a {
+    color: var(--HospitalGreen);
+    font-size: var(--sm);
 }
 
 
