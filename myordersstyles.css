@@ -1,0 +1,68 @@
+:root {
+    --Verylightpink: #C7C7C7;
+    --Textinputfield: #F7F7F7;
+    --HospitalGreen: #ACD982;
+    --White: #FFFFFF;
+    --Black: #000000;
+    --sm: 12px;
+    --md: 16px;
+    --lg: 24px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+#my-order {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+}
+
+.my-order-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
+
+.title {
+    padding-bottom: 40px;
+    font-size: var(--lg);
+}
+
+.my-order-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-order-content .content {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    padding: 0 8px;
+}
+
+.my-order-content .content .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-order-content .content .info span:nth-child(1) {
+    font-size: var(--md);
+    font-weight: bold;
+}
+
+.my-order-content .content .info span:nth-child(2) {
+    font-size: var(--sm);
+    color: var(--Verylightpink);
+}
+
+.my-order-content .content p:nth-child(2) {
+    text-align: end;
+    font-weight: bold;
+}
