@@ -14,6 +14,63 @@ body {
     margin: 0;
 }
 
+aside {
+    width: 360px;
+    position: absolute;
+    right: 0;
+    padding-bottom: 24px;
+}
+
+aside .clock {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+}
+
+aside .product-info img {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: var(--Textinputfield);
+    z-index: 2;
+    padding: 12px;
+    margin: 16px;
+    cursor: pointer;
+}
+
+aside .product-info img:hover {
+    cursor: pointer;
+}
+aside .product-detail {
+    margin: 24px 24px 0 24px;
+}
+
+aside .product-detail p:nth-child(1) {
+    font-weight: bold;
+    font-size: var(--md);
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+aside .product-detail p:nth-child(2) {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: var(--md);
+}
+aside .product-detail p:nth-child(3) {
+    font-size: var(--md);
+    margin-bottom: 32px;
+    margin-top: 0px;
+}
+
+aside .product-detail p:nth-child(2), aside .product-detail p:nth-child(3) {
+    color: var(--Verylightpink);
+    font-weight: var(--md);
+}  
+
 .primary-button {
     background-color: var(--HospitalGreen);
     color: var(--White);
@@ -24,4 +81,19 @@ body {
     cursor: pointer;
     height: 50px;
     width: 100%;
+    margin-top: 12px;
 }
+
+.add-to-cart-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 640px) {
+    
+    aside {
+        width: 100%;
+    }
+}
+
