@@ -1,0 +1,27 @@
+:root {
+    --Verylightpink: #C7C7C7;
+    --Textinputfield: #F7F7F7;
+    --HospitalGreen: #ACD9B2;
+    --White: #FFFFFF;
+    --Black: #000000;
+    --sm: 12px;
+    --md: 16px;
+    --lg: 24px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+.primary-button {
+    background-color: var(--HospitalGreen);
+    color: var(--White);
+    font-weight: bold;
+    font-size: var(--md);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+}
